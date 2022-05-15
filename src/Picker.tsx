@@ -28,7 +28,7 @@ type AppPickerProps = {
   callback?: (val: any) => void;
 };
 
-function AppPicker({
+function Picker({
   icon,
   value,
   onValueChange,
@@ -195,4 +195,4 @@ const styles = StyleSheet.create({
     padding: 20,
   },
 });
-export default AppPicker;
+export default Picker;
